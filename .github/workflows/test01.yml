@@ -6,6 +6,7 @@ on:
       - master
       - develop/**
       - release/**
+      - test/**
   pull_request:
     branches:
       - master
@@ -22,4 +23,5 @@ jobs:
       # This step uses GitHub's hello-world-javascript-action: https://github.com/actions/hello-world-javascript-action
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2.1.0
+      - run: echo "test2"
       - run: npm run hello
