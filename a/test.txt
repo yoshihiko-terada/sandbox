@@ -1,2 +1,2 @@
-hogefuga
-abcde
+hogefuga+
+abcde++
